@@ -34,3 +34,4 @@ jobs:
         with:
           tag_name: v1
           files: target/my-app-1.0-SNAPSHOT.jar # Specify the files to be included in the release (JAR files in the target directory)
+          token: ${{ secrets.GIT_BOT_RAMI }}
