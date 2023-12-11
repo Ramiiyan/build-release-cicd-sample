@@ -9,7 +9,7 @@ on:
   workflow_dispatch: # For Mannual Trigger
 
 jobs:
-  build & Release:
+  BuildRelease:
     # Set the environment for this job (place where these workflow will run below steps and cmds)
     runs-on: ubuntu-latest
     steps:
