@@ -32,6 +32,6 @@ jobs:
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: v1
+          tag_name: v1.1
           files: target/my-app-1.0-SNAPSHOT.jar # Specify the files to be included in the release (JAR files in the target directory)
-          token: ${{ secrets.GIT_BOT_RAMI }}
+          token: ${{ secrets.GIT_BOT_RAMI }} # Stored the access token as a GitHub action secret.
