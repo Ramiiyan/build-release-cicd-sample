@@ -37,4 +37,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v1
-          files: target/*.jar # Specify the files to be included in the release (JAR files in the target directory)
+          files: target/my-app-1.0-SNAPSHOT.jar # Specify the files to be included in the release (JAR files in the target directory)
